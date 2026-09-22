@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import {
   BiLogoLinkedin,
   BiLogoGithub,
@@ -9,7 +7,6 @@ import {
 } from "react-icons/bi";
 import nodeImg from "../assets/img/node.png";
 import awsImg from "../assets/img/aws.svg";
-import resumePdf from "../assets/docs/Brayan_Olivares_Backend_AWS_CV.pdf";
 import { site } from "../data/site";
 
 export function Hero() {
@@ -47,13 +44,6 @@ export function Hero() {
             <div className="home__actions">
               <a href="#projects" className="button">
                 View Projects
-              </a>
-              <a
-                href={resumePdf}
-                download={site.resume.downloadName}
-                className="button button--ghost"
-              >
-                Download Résumé <FontAwesomeIcon icon={faDownload} aria-hidden="true" />
               </a>
             </div>
 

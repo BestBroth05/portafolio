@@ -10,9 +10,10 @@ export const site = {
     email: "mailto:olivaresbrayan0510@gmail.com",
     website: "https://brayanolivares.com",
   },
-  resume: {
-    downloadName: "Brayan_Olivares_Backend_AWS_CV.pdf",
-  },
+  // TODO(Brayan): Supply the Backend/AWS CV PDF and restore the hero
+  // "Download Résumé" link to that file. The only résumé in this repo,
+  // src/assets/docs/Brayan_Olivares_Resume.pdf, is the older Flutter-first
+  // CV and must not be the primary download.
   meta: {
     title:
       "Brayan Olivares | Backend Software Engineer | Node.js · TypeScript · AWS · SQL",
