@@ -14,8 +14,8 @@ export function FeaturedProjects() {
           Featured Projects
         </h2>
         <p className="section__subtitle">
-          Public portfolio projects emphasizing Flutter, Bluetooth Low Energy,
-          backend services, and AWS architecture.
+          Backend and cloud work first — Node.js, TypeScript, AWS, and SQL —
+          with Flutter and Bluetooth Low Energy as a secondary focus.
         </p>
         <div className="projects__grid container grid">
           {featuredProjects.map((project) => (

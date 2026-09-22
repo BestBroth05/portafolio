@@ -6,13 +6,11 @@ export const experience = [
     period: "October 2022 – Present",
     location: "Remote",
     focusAreas: [
-      "Flutter applications",
-      "BLE and IoT integrations",
-      "Node.js backend services",
-      "AWS infrastructure",
-      "API design",
-      "Deployment automation",
-      "Technical documentation",
+      "Lead in a team of 2: Node.js/TypeScript APIs, AWS, and releases",
+      "CI/CD with GitHub Actions, cutting deployment overhead by ~75%",
+      "Sole backend for PathBus across 10+ cities",
+      "OpenPay and NetPay integrations with retries and idempotency",
+      "Flutter, BLE, and IoT as a secondary specialization",
     ],
   },
   {

@@ -1,18 +1,5 @@
 export const skillCategories = [
   {
-    id: "mobile-connected-devices",
-    title: "Mobile & Connected Devices",
-    skills: [
-      "Flutter",
-      "Dart",
-      "Bluetooth Low Energy",
-      "IoT",
-      "Android",
-      "iOS",
-      "Raspberry Pi",
-    ],
-  },
-  {
     id: "backend-apis",
     title: "Backend & APIs",
     skills: [
@@ -50,6 +37,19 @@ export const skillCategories = [
       "Postman",
       "Automated Testing",
       "Firebase",
+    ],
+  },
+  {
+    id: "mobile-connected-devices",
+    title: "Mobile & Connected Devices",
+    skills: [
+      "Flutter",
+      "Dart",
+      "Bluetooth Low Energy",
+      "IoT",
+      "Android",
+      "iOS",
+      "Raspberry Pi",
     ],
   },
 ];

@@ -28,8 +28,9 @@ export function Contact() {
               Let&apos;s build reliable software together.
             </h2>
             <p className="contact__description">
-              I&apos;m open to opportunities involving Flutter, Bluetooth Low
-              Energy, IoT, backend development, and AWS cloud engineering.
+              I&apos;m open to backend and cloud roles involving Node.js,
+              TypeScript, AWS, and SQL. Flutter, Bluetooth Low Energy, and IoT
+              remain a secondary specialization.
             </p>
             <p className="contact__email">
               <FontAwesomeIcon icon={faEnvelope} aria-hidden="true" />{" "}

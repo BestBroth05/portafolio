@@ -28,6 +28,33 @@ export const featuredProjects = [
     status: "Public portfolio project",
   },
   {
+    slug: "pathbus-transportation-platform",
+    title: "PathBus Transportation Platform",
+    summary:
+      "Production case study: the Node.js and TypeScript backend, SQL Server model, and AWS infrastructure behind a multi-city transportation platform.",
+    role: "Sole backend engineer — APIs, data, AWS, and payments",
+    technologies: [
+      "Node.js",
+      "TypeScript",
+      "SQL Server",
+      "AWS",
+      "OpenPay",
+      "NetPay",
+      "GitHub Actions",
+    ],
+    highlights: [
+      "Sole backend for operations across 10+ cities",
+      "1,000+ daily transactions per route",
+      "REST APIs and SQL data model on AWS production infrastructure",
+      "OpenPay and NetPay payment flows with retries and idempotency",
+    ],
+    visual: "pathbus",
+    repositoryUrl: null,
+    liveUrl: null,
+    caseStudyUrl: null,
+    status: "Professional case study",
+  },
+  {
     slug: "flutter-bluetooth-platform",
     title: "Flutter Bluetooth Platform",
     summary:

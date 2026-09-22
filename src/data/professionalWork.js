@@ -6,7 +6,7 @@ export const professionalWork = [
     label: "Professional project · Private repository",
     role: "Flutter and IoT Software Engineer",
     summary:
-      "Contributed to a connected-device platform integrating Flutter applications, embedded hardware workflows, backend services, and AWS infrastructure.",
+      "Contributed to a connected-device platform integrating Flutter applications, embedded hardware workflows, backend services, and AWS infrastructure for 200+ connected units.",
     technologies: [
       "Flutter",
       "AWS",
@@ -23,26 +23,8 @@ export const professionalWork = [
     label: "Client work · Private repository",
     role: "Flutter and Bluetooth Low Energy Engineer",
     summary:
-      "Developed and improved mobile Bluetooth Low Energy workflows, including device discovery, connection lifecycle management, protocol communication, and cross-platform application behavior.",
+      "Developed and improved mobile Bluetooth Low Energy workflows, including device discovery, connection lifecycle management, and protocol communication, bringing BLE measurement error from 15% to near-zero.",
     technologies: ["Flutter", "Dart", "Bluetooth Low Energy", "Android", "iOS"],
     visual: "ble",
-  },
-  {
-    slug: "pathbus-transportation-platform",
-    title: "PathBus Transportation Platform",
-    category: "Transportation · Cloud",
-    label: "Professional project · Private repository",
-    role: "Full-Stack and Cloud Engineer",
-    summary:
-      "Built software components for a connected transportation platform combining Flutter, backend APIs, data management, IoT workflows, and AWS deployment infrastructure.",
-    technologies: [
-      "Flutter",
-      "Node.js",
-      "SQL Server",
-      "AWS",
-      "IoT",
-      "GitHub Actions",
-    ],
-    visual: "transit",
   },
 ];
