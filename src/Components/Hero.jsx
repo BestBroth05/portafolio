@@ -7,6 +7,7 @@ import {
 } from "react-icons/bi";
 import nodeImg from "../assets/img/node.png";
 import awsImg from "../assets/img/aws.svg";
+import resumePdf from "../assets/docs/Brayan_Olivares_Resume.pdf";
 import { site } from "../data/site";
 
 export function Hero() {
@@ -37,13 +38,19 @@ export function Hero() {
             <p className="home__role">{site.title}</p>
             <p className="home__description">
               I build Node.js and TypeScript APIs, SQL-backed services, and AWS
-              infrastructure. Flutter, Bluetooth Low Energy, and IoT are a
-              secondary specialization.
+              infrastructure.
             </p>
 
             <div className="home__actions">
               <a href="#projects" className="button">
                 View Projects
+              </a>
+              <a
+                href={resumePdf}
+                download={site.resume.downloadName}
+                className="button button--ghost"
+              >
+                Download CV
               </a>
             </div>
 
