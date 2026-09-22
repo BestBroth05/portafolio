@@ -1,6 +1,6 @@
 export const site = {
   name: "Brayan Olivares",
-  title: "Software Engineer | Flutter | NodeJS | AWS | IoT",
+  title: "Backend Software Engineer | Node.js · TypeScript · AWS · SQL",
   canonicalUrl: "https://brayanolivares.com",
   email: "olivaresbrayan0510@gmail.com",
   links: {
@@ -10,12 +10,14 @@ export const site = {
     email: "mailto:olivaresbrayan0510@gmail.com",
     website: "https://brayanolivares.com",
   },
-  resume: {
-    downloadName: "Brayan_Olivares_Resume.pdf",
-  },
+  // TODO(Brayan): Supply the Backend/AWS CV PDF and restore the hero
+  // "Download Résumé" link to that file. The only résumé in this repo,
+  // src/assets/docs/Brayan_Olivares_Resume.pdf, is the older Flutter-first
+  // CV and must not be the primary download.
   meta: {
-    title: "Brayan Olivares | Software Engineer | Flutter | NodeJS | AWS | IoT",
+    title:
+      "Brayan Olivares | Backend Software Engineer | Node.js · TypeScript · AWS · SQL",
     description:
-      "Software engineer specializing in Flutter, Bluetooth Low Energy, IoT platforms, Node.js/TypeScript backends, and AWS cloud infrastructure.",
+      "Backend software engineer building Node.js and TypeScript APIs, SQL data models, and AWS infrastructure. Flutter, Bluetooth Low Energy, and IoT are a secondary specialization.",
   },
 };

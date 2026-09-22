@@ -14,8 +14,9 @@ export function Footer() {
               {site.name}
             </a>
             <p className="footer__description">
-              Software engineer focused on Flutter, Bluetooth Low Energy, IoT,
-              backend services, and AWS cloud systems.
+              Backend software engineer focused on Node.js, TypeScript, AWS,
+              and SQL. Flutter, Bluetooth Low Energy, and IoT are a secondary
+              specialization.
             </p>
           </div>
 

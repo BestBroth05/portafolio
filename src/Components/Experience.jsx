@@ -13,8 +13,8 @@ export function Experience() {
           Professional Experience
         </h2>
         <p className="section__subtitle">
-          Roles focused on Flutter, connected devices, backend services, and
-          cloud delivery.
+          Backend ownership of Node.js/TypeScript APIs, AWS, and CI/CD, with
+          connected-device work as a secondary focus.
         </p>
 
         <div className="experience__list container grid">

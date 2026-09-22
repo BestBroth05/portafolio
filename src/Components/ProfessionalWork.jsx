@@ -34,7 +34,7 @@ const Container = styled.div`
 
   @media screen and (min-width: 768px) {
     .work__grid {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       align-items: stretch;
     }
   }

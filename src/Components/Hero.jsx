@@ -1,15 +1,12 @@
 import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import {
   BiLogoLinkedin,
   BiLogoGithub,
   BiLogoGmail,
   BiGlobe,
 } from "react-icons/bi";
-import flutterImg from "../assets/img/logo_flutter.png";
 import nodeImg from "../assets/img/node.png";
-import resumePdf from "../assets/docs/Brayan_Olivares_Resume.pdf";
+import awsImg from "../assets/img/aws.svg";
 import { site } from "../data/site";
 
 export function Hero() {
@@ -24,13 +21,13 @@ export function Hero() {
             <h1 className="home__title" id="home-title">
               <span>{site.name}</span>
               <img
-                src={flutterImg}
+                src={nodeImg}
                 alt=""
                 className="home__title-img-1"
                 aria-hidden="true"
               />
               <img
-                src={nodeImg}
+                src={awsImg}
                 alt=""
                 className="home__title-img-2"
                 aria-hidden="true"
@@ -39,21 +36,14 @@ export function Hero() {
 
             <p className="home__role">{site.title}</p>
             <p className="home__description">
-              I build mobile applications, connected-device platforms, backend
-              services, and cloud infrastructure with a focus on clean
-              architecture, reliability, and maintainability.
+              I build Node.js and TypeScript APIs, SQL-backed services, and AWS
+              infrastructure. Flutter, Bluetooth Low Energy, and IoT are a
+              secondary specialization.
             </p>
 
             <div className="home__actions">
               <a href="#projects" className="button">
                 View Projects
-              </a>
-              <a
-                href={resumePdf}
-                download={site.resume.downloadName}
-                className="button button--ghost"
-              >
-                Download Résumé <FontAwesomeIcon icon={faDownload} aria-hidden="true" />
               </a>
             </div>
 

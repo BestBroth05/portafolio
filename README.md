@@ -1,8 +1,8 @@
 # Portfile 2.0
 
-Personal portfolio of **Brayan Olivares** — Software Engineer focused on
-Flutter, Bluetooth Low Energy, IoT platforms, Node.js/TypeScript backends, and
-AWS cloud infrastructure.
+Personal portfolio of **Brayan Olivares** — Backend Software Engineer focused
+on Node.js, TypeScript, AWS, and SQL. Flutter, Bluetooth Low Energy, and IoT
+are a secondary specialization.
 
 🌐 **Live:** [brayanolivares.com](https://brayanolivares.com)
 
@@ -13,14 +13,16 @@ AWS cloud infrastructure.
 This site presents professional experience, public flagship projects, selected
 professional work (high-level only), technical skills, and contact options.
 
-Public flagship projects:
+Featured work, in order:
 
 1. Artifact Repository Service
-2. Flutter Bluetooth Platform
-3. Personal Portfolio
+2. PathBus case study
+3. Flutter Bluetooth Platform
+4. Personal Portfolio
 
-Selected professional work is summarized without private repositories, client
-screenshots, or proprietary implementation details.
+Selected professional work follows that list (Mabe, then Biosense) and is
+summarized without private repositories, client screenshots, or proprietary
+implementation details.
 
 ---
 

@@ -16,18 +16,26 @@ export function About() {
             </h2>
 
             <p className="about__description">
-              I work across the stack where mobile products meet connected
-              hardware and cloud services. My focus areas include Flutter
-              applications, Bluetooth Low Energy workflows, IoT integrations,
-              Node.js and TypeScript backends, and AWS infrastructure.
+              I own backend delivery: Node.js and TypeScript APIs, AWS
+              infrastructure, and CI/CD. I lead software work in a team of two,
+              and I am the sole backend engineer on PathBus.
             </p>
             <p className="about__description">
-              I care about clean architecture, maintainable APIs, automated
-              testing, and clear technical documentation so systems remain
-              reliable after the first release.
+              On PathBus I integrate OpenPay and NetPay with retries and
+              idempotency so provider failures and duplicate charges stay safe
+              in production. Flutter, Bluetooth Low Energy, and IoT are a
+              secondary specialization.
             </p>
 
             <div className="about__meta">
+              <div>
+                <h3>Selected results</h3>
+                <p>
+                  10+ cities · 1,000+ daily transactions per route · ~75%
+                  deploy reduction · BLE error from 15% to near-zero · 200+
+                  connected units
+                </p>
+              </div>
               <div>
                 <h3>Education</h3>
                 <p>

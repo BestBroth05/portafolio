@@ -47,6 +47,57 @@ export function ProjectVisual({ type, title }) {
     );
   }
 
+  if (type === "pathbus") {
+    return (
+      <svg
+        className="project-visual"
+        viewBox="0 0 640 360"
+        role="img"
+        aria-label={`${title} backend case study illustration`}
+      >
+        <defs>
+          <linearGradient id="pathbusBg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stopColor="#141821" />
+            <stop offset="100%" stopColor="#241c38" />
+          </linearGradient>
+        </defs>
+        <rect width="640" height="360" rx="24" fill="url(#pathbusBg)" />
+        <rect x="36" y="48" width="150" height="56" rx="12" fill="#624da3" />
+        <text x="111" y="82" textAnchor="middle" fill="#fff" fontSize="16">
+          10+ cities
+        </text>
+        <rect x="214" y="48" width="180" height="56" rx="12" fill="#3d3164" />
+        <text x="304" y="82" textAnchor="middle" fill="#fff" fontSize="16">
+          Node.js API
+        </text>
+        <rect x="422" y="48" width="180" height="56" rx="12" fill="#3d3164" />
+        <text x="512" y="82" textAnchor="middle" fill="#fff" fontSize="16">
+          SQL Server
+        </text>
+        <rect x="120" y="168" width="180" height="64" rx="12" fill="#31264f" />
+        <text x="210" y="206" textAnchor="middle" fill="#fff" fontSize="16">
+          AWS
+        </text>
+        <rect x="340" y="168" width="200" height="64" rx="12" fill="#31264f" />
+        <text x="440" y="196" textAnchor="middle" fill="#fff" fontSize="15">
+          OpenPay · NetPay
+        </text>
+        <text x="440" y="216" textAnchor="middle" fill="#cbbcf5" fontSize="12">
+          retries · idempotency
+        </text>
+        <path
+          d="M111 104v32M304 104v32M512 104v32M210 136h230M210 168V136"
+          stroke="#9b86d8"
+          strokeWidth="3"
+          fill="none"
+        />
+        <text x="320" y="292" textAnchor="middle" fill="#cbbcf5" fontSize="18">
+          1,000+ daily transactions per route
+        </text>
+      </svg>
+    );
+  }
+
   if (type === "bluetooth") {
     return (
       <svg

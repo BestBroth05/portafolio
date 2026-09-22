@@ -9,8 +9,8 @@ export function Skills() {
           Technical Skills
         </h2>
         <p className="section__subtitle">
-          Core tools and platforms used across mobile, backend, cloud, and
-          delivery workflows.
+          Core tools for Node.js APIs, AWS, SQL, and delivery. Mobile and
+          connected devices are a secondary set.
         </p>
         <div className="skills__grid container grid">
           {skillCategories.map((category) => (
