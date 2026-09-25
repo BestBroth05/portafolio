@@ -45,6 +45,7 @@ export const skillCategories = [
     skills: [
       "Flutter",
       "Dart",
+      "Cubit (flutter_bloc)",
       "Bluetooth Low Energy",
       "IoT",
       "Android",
