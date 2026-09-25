@@ -141,6 +141,43 @@ export function ProjectVisual({ type, title }) {
     );
   }
 
+  if (type === "pokedex") {
+    return (
+      <svg
+        className="project-visual"
+        viewBox="0 0 640 360"
+        role="img"
+        aria-label={`${title} mobile and web illustration`}
+      >
+        <defs>
+          <linearGradient id="pokedexBg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stopColor="#141821" />
+            <stop offset="100%" stopColor="#2a2040" />
+          </linearGradient>
+        </defs>
+        <rect width="640" height="360" rx="24" fill="url(#pokedexBg)" />
+        <rect x="48" y="48" width="250" height="220" rx="16" fill="#1d2330" stroke="#624da3" strokeWidth="3" />
+        <text x="173" y="86" textAnchor="middle" fill="#fff" fontSize="16">
+          Paginated list
+        </text>
+        <rect x="72" y="108" width="202" height="28" rx="8" fill="#31264f" />
+        <rect x="72" y="148" width="202" height="28" rx="8" fill="#3d3164" />
+        <rect x="72" y="188" width="202" height="28" rx="8" fill="#31264f" />
+        <rect x="330" y="48" width="262" height="220" rx="16" fill="#1d2330" stroke="#9b86d8" strokeWidth="3" />
+        <text x="461" y="86" textAnchor="middle" fill="#fff" fontSize="16">
+          Pokémon detail
+        </text>
+        <circle cx="461" cy="150" r="36" fill="#624da3" />
+        <text x="461" y="214" textAnchor="middle" fill="#cbbcf5" fontSize="14">
+          PokéAPI
+        </text>
+        <text x="320" y="308" textAnchor="middle" fill="#cbbcf5" fontSize="18">
+          Mobile · Web · Cubit · Hive
+        </text>
+      </svg>
+    );
+  }
+
   return (
     <svg
       className="project-visual"
