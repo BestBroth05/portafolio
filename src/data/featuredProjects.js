@@ -123,7 +123,7 @@ export const featuredProjects = [
       "Content models that keep public and private work boundaries explicit",
     ],
     visual: "portfolio",
-    repositoryUrl: "https://github.com/BestBroth05/Portfile_2.0",
+    repositoryUrl: "https://github.com/BestBroth05/portafolio",
     liveUrl: "https://brayanolivares.com",
     caseStudyUrl: null,
     status: "Live",
